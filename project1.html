@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aec Electrical</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  height:50%;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(22, 22, 21);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: rgb(161, 57, 25);
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgba(223, 104, 163, 0.315);
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.fakeim {
+  width: 35%;
+  height:100%;
+  
+}
+.rcorners1 {
+  border-radius: 100%;
+  height:100% ;
+  width:100%;
+  padding: 0px; 
+  object-fit:cover;
+}
+.rcorner{
+  object-fit:cover;
+  border-radius:50%;
+}.rcorners2 {
+  
+  height:100% ;
+  width:100%;
+  padding: 0px; 
+  object-fit:cover;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(10, 243, 146);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://aecwb.edu.in/imgSliderHomeTest/1.jpg"alt="Loading..."width="100%"">
+  <h1>Electrical Department</h1>
+  <h1 style="color:red">2018-2022</h1>
+  <h3 style="color:yellow">Hope &  Believe</h3>
+  <p>A <b>responsive</b> website created by S.K Bhardwaj.</p>
+
+</div>
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="https://aecwb.edu.in/">AEC</a>
+  <a href="http://makautexam.net/">MAKAUT</a>
+  <a href="https://www.aicte-india.org/" class="right">AICTE</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    
+    <div class="fakeim" style="height: 150px;width:150px"><img class="rcorners1"src="https://scontent.fpat3-2.fna.fbcdn.net/v/t1.6435-9/48985064_2340194972875012_1456197864161017856_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WxlgOrVLHOcAX-ICqdD&_nc_ht=scontent.fpat3-2.fna&oh=3cd5855f23fb7da784e44636d20a1ad7&oe=6154156B"alt="loading..."></div>
+    <p><a href="https://www.linkedin.com/in/saurabh-kumar-bhardwaj-b6823121a" target="_blank" title="linked in">    Contact me</a></p>
+    <p ><a href="mailto:saurabhkumar.me24@gmail.com"><h3>Send Email</h3></a></p>
+    
+    <h3>Developement is Going on</h3>
+    <p style="color:rgb(128, 83, 0)">Stay Tuned </p>
+    <div class="fakeimg1" style="height:200px;"><img class="rcorners2" src=" https://aecwb.edu.in/slideShowLabs/pics/aec_labs1.jpg"alt="Loading..."width="180px"></div><br>
+    <div class="fakeimg1" style="height:200px;"><img class="rcorners2" src="https://aecwb.edu.in/slideShowLabs/pics/aec_labs2.jpg"alt="Loading..."></div><br>
+    <div class="fakeimg1" style="height:200px;"><img class="rcorners2" src="https://aecwb.edu.in/academics/departments/ee/pics/aecEEAll.jpg"alt="Loading..."></div>
+  </div>
+  <div class="main">
+    <h2 style="color:blue">HOD's message</h2>
+    <h5> Description, 31 July 2018</h5>
+    <div class="fakeim" style="height:200px;"><img class="rcorner" width="200px"src="https://media-exp1.licdn.com/dms/image/C4D03AQGjW7gpOIgoEQ/profile-displayphoto-shrink_400_400/0/1517490479145?e=1635984000&v=beta&t=y-7EM13J9qRQetQB1_bllOLH6z3xUBqPgQYIrMcrF_8"alt="Laoding..."height="200px"width="200px"></div>
+    <p style="color:maroon">The Electrical Engineering department was set up with a vision of producing high quality technical manpower needed by today’s electrical sector. To accomplish its goals the department has been imparting quality education. Attempts are made to optimize research and improve everything constantly. Electrical Engineering Department integrates scientific principles with practically oriented research, providing systems and process that themselves create ways of acquiring new knowledge. The department has been constantly encouraging its students to engage in extracurricular and co-curricular activities essential for development, nurturing of team spirit and developing organizational skills.
+
+
+
+     <br><br>     <p style="color:red">  Dr. Rajan Sarkar</p>
+    <p style="color:red">WE are Electrical Deaprtment ....</p>
+    <br>
+    <h2 style="color:black">Faculty</h2>
+    <h5>APNA ELECTRICAL</h5>
+    <div class="fakeimg5" style="height:250px;"><img class="rcorners2" src="https://scontent.fpat3-3.fna.fbcdn.net/v/t1.6435-9/61090968_2265614693531359_6511789248213942272_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3u_GOsN8QWAAX8P6ycI&_nc_ht=scontent.fpat3-3.fna&oh=5b338631c76bf13d4426a005fa39563b&oe=61543786"alt="Loading..."></div>
+    <p style="color: brown">The department of Electrical Engineering at Asansol Engineering College offers a vibrant atmosphere for learning and research in the field of Electrical Engineering. Established in the year 1998 currently the department offers an Under Graduate program B. Tech in Electrical Engineering with an annual intake of 120 students and a Post Graduate program M. Tech in Electrical Engineering with an annual intake of 13 students.
+
+      The department is headed by Dr. R. Sarkar, having 18 years of experience in teaching. The faculty cadre in the department is a rich blend of personnel with industrial and professional experience. The dedicated staff members have sound knowledge in emerging areas of Electrical and allied engineering domains. The breadth and depth of the research interests of the academic staff ensures a high standard of lecture courses and provides excellent opportunities for challenging and stimulating final year projects. Individual lecturers supplement their delivery using blackboards, overhead projectors and video projection. All the faculty members are encouraged to participate in Faculty Development Programmes, Conferences, Workshops, Publication of Research Papers and active involvement in R & D activity.</p>
+       <b style="color:black">Stay tuned</b>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><a href="#">&#8593; </a></h2>
+  <p>Copyright &#169; 2021 S.k Bhardwaj.All Right Reserved</p>
+</div>
+
+
+</html>
+
