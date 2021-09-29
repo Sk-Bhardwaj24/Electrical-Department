@@ -5,6 +5,7 @@
 <title>Aec Electrical</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <<style>
 * {
   box-sizing: border-box;
@@ -36,9 +37,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: rgb(22, 22, 21);
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+  
 }
 
 /* Style the navigation bar links */
@@ -68,6 +67,10 @@ body {
   background-color: rgb(161, 57, 25);
   color: white;
 }
+.navbar .icon {
+  display: none;
+}
+
 
 /* Column container */
 .row {  
@@ -135,18 +138,35 @@ body {
   font-size:20px;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout when the screen is less than 700px wide*/
 @media screen and (max-width: 700px) {
   .row {   
     flex-direction: column;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
+/* Responsive layout  when the screen is less than 600px wide */
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.*/
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
     float: none;
-    width: 100%;
+    display: block;
+    text-align: left;
   }
 }
 </style>
@@ -161,12 +181,27 @@ body {
   <p>A <b>responsive</b> website created by S.K Bhardwaj.</p>
 
 </div>
-<div class="navbar">
+</div>
+<div class="navbar" id="myNavbar">
   <a href="#" class="active">Home</a>
   <a href="https://aecwb.edu.in/"title="Asansol Engineering College">AEC</a>
   <a href="http://makautexam.net/"title="Maulana Abdul Kamlam Azad University Of Technology">MAKAUT</a>
   <a href="https://www.aicte-india.org/"title="AICTE" class="right">AICTE</a>
+  <a href="javascript:void(0);"class="icon"
+  onclick="myFunction()">
+  <i class="fa fa-bars"></i> 
+</a>
 </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+  </script>
 
 <div class="row">
   <div class="side">
