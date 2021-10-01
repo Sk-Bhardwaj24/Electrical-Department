@@ -5,7 +5,8 @@
 /* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: 0px;
+
 }
 
 /* Header/logo Title */
@@ -18,21 +19,39 @@ body {
 }
 /* style for form*/
 .head{
+    height:100vh;
   background-color: rgba(0, 151, 81, 0.301);
+  margin:0px;
+  
   }
-  .form{
-width: 250px;
-height: 10em;
-}
+ 
 .form_b{
   border-style:  solid;
   border-width:30px;
   border-color:red;
   border-left-color:black;
   border-top-color:black;
-  object-fit:cover
+  object-fit:cover;
+  border-radius:30px;
+  
   }
+  /* For increasing the height of input*/
+input{
+  height:40px;
+  width:250px;
+  }
+
 /* End of style for form*/
+.container{
+    max-width:650px;
+    width:100%;
+    background:linear-gradient(135deg, #71b7e6,#9b59b6);
+    padding:25px 30px;
+    border-radius:30px;
+    
+}
+
+
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
@@ -40,8 +59,9 @@ height: 10em;
 
 
 .navbar {
-  overflow: hidden;
+  overflow:hidden;
   background-color: rgb(22, 22, 21);
+ 
   
 }
 
@@ -74,21 +94,22 @@ height: 10em;
 }
 .navbar .icon {
   display: none;
+ 
 }
 
 
 /* Column container */
 .row {  
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
+  -ms-flex: 30%; 
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
@@ -96,7 +117,7 @@ height: 10em;
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; /* IE10 */
+  -ms-flex: 70%; 
   flex: 70%;
   background-color: rgba(223, 104, 163, 0.315);
   padding: 20px;
@@ -206,8 +227,10 @@ height: 10em;
     top: 0;
   }
   .navbar.responsive a {
-    float: none;
+    float:none;
     display: block;
     text-align: left;
+  
+    
   }
 }
