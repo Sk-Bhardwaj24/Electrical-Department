@@ -16,43 +16,8 @@ body {
   text-align: center;
   background: #1abc9c;
   color: white; 
-}
-/* style for form*/
-.head{
-    height:100vh;
-  background-color: rgba(0, 151, 81, 0.301);
-  margin:0px;
   
-  }
- 
-.form_b{
-  border-style:  solid;
-  border-width:30px;
-  border-color:red;
-  border-left-color:black;
-  border-top-color:black;
-  object-fit:cover;
-  border-radius:30px;
-  
-  }
-  /* For increasing the height of input*/
-input{
-  height:40px;
-  width:250px;
-  }
-
-/* End of style for form*/
-.container{
-    max-width:650px;
-    width:100%;
-    background:linear-gradient(135deg, #71b7e6,#9b59b6);
-    padding:25px 30px;
-    border-radius:30px;
-    
 }
-
-
-/* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
 }
