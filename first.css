@@ -152,12 +152,16 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background:rgb(10, 243, 146);
+  
+  background-image: url("image/bac1.jpg");
+  background-size:cover;
 }
 .decorate{
   text-decoration:none;
   color:red;
-  font-size:20px;
+  font-size:28px;
+  font-weight:bold;
+  font-family:cursive;
 }
 .decorate1{
     text-decoration:none;
@@ -165,6 +169,14 @@ body {
     font-size:20px;
     padding:10px;
   }
+  .decorate2
+  {
+      color:white;
+      font-size:20px;
+      font-weight:900px;
+      
+  }
+
 
 /* Responsive layout when the screen is less than 700px wide*/
 @media screen and (max-width: 700px) {
