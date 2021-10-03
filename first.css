@@ -219,7 +219,7 @@ background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 }
 /* Responsive layout  when the screen is less than 600px wide */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -229,7 +229,7 @@ background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive a.icon {
     position: absolute;
