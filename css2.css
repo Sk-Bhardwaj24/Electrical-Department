@@ -22,6 +22,27 @@ body{
   border-radius:30px;
   
   }
+  .sen
+  {
+     height: 45px;
+     width:120px ;
+     font-size:20px;
+     color:white;
+     background-color: #e9bcb7;
+     background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+     border: 1px solid cornsilk;
+  }
+  .sen:hover{
+    
+        cursor: pointer;
+        background-color: antiquewhite;
+       
+        box-shadow: 0 0 5px wheat, 0 0 10px white, 0 0 15px white;
+        font-weight: bold;
+        outline: none;
+       transition: .7s ease;
+       color: black;
+}
  input{
      height:35px;
      width:60%;
