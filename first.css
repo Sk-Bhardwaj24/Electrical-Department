@@ -303,7 +303,7 @@ transition: 0.2s ease;
     background-color: antiquewhite;
     color: red;
     box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
-    border-radius:15px;
+    
     outline: inset;
     outline-color:red;
     background-color: #ffcfdf;
