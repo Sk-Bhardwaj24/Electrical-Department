@@ -1,149 +1,150 @@
 /* style for form*/
 
 body{
- background-image: url("image/bac.jpg");
- background-size:cover;
-}
-.head{
-    height:100%;
-  background-color: rgba(0, 151, 81, 0.301);
-  margin:0px;
-  
-  }
- 
-.form_b{
-    
-  border-style:  solid;
-  border-width:30px;
-  border-color:red;
-  border-left-color:black;
-  border-right-color:black;
-  object-fit:cover;
-  border-radius:30px;
-  
-  }
-  .sen
-  {
-     height: 45px;
-     width:120px ;
-     font-size:20px;
-     color:white;
-     background-color: #e9bcb7;
-     background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-     border: 1px solid cornsilk;
-  }
-  .sen:hover{
-       height: 45px;
-       width:120px ;
-       font-size:20px;
-        cursor: pointer;
-        background-color: antiquewhite;
-       
-        box-shadow: 0 0 5px wheat, 0 0 10px white, 0 0 15px white;
-        font-weight: bold;
-        outline: none;
-       transition: .7s ease;
-       color: black;
-}
- input{
-     height:35px;
-     width:60%;
-     border:2px;
-     font-weight :bolder;
-     border-style: solid;
-     border-color:red;
-     border-radius:8px;
- }
- input:hover{
-    height:35px;
-    width:60%;
-    border:2px;
-    border-style: solid;
-    border-color:white;
-    border-radius:8px;
-    background: transparent;
-    background-color: #f39f86;
-    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
-    color:black;
-    font-weight: 600;
-   padding-left: 12px;
- }
- .tex{
-    border:2px;
-    border-style: solid;
-    border-color:red;
-    border-radius:8px
- }
- 
-
-
-/* End of style for form*/
-.container{
-    max-width:400px;
-    width:100%;
-    background:linear-gradient(135deg, #71b7e6,#9b59b6);
-    padding:25px 30px;
-    border-radius:30px;
-    max-height:100%;
-
-    font-size:27px;
-    
-}
-.container:hover{
-    max-width:400px;
-    width:100%;
-    background-color: #48dbfb;
-    background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
-    padding:25px 30px;
-    border-radius:30px;
-    max-height:100%;
-
-    font-size:27px;
-    
-}
+    background-image: url("image/bac.jpg");
+    background-size:cover;
+   }
+   .head{
+       height:100%;
+     background-color: rgba(0, 151, 81, 0.301);
+     margin:0px;
      
-
-@media screen and (min-width: 500px){
-    .head{
-        height:100%;
-    }
-    .container{
-       max-width: 1200px;    
-       width:75%;
-    }
-    .tex{
-        border-radius:15px;
-    }
-    .container:hover{
-        max-width: 1200px;    
-        width:75%
-}
- 
-  
-  @media screen and (max-width: 499px) {
-    .head{
-        height:70%;
-    }
-    .container{
-               
-       width:90%;
-       padding:0px;
-       font-size:100%;
-    }
-    input{
-        width:75%;
-        
-    }
-    
-    .container:hover{
-               
-        width:90%;
-        padding:0px;
-        font-size:100%;
      }
     
+   .form_b{
+       
+     border-style:  solid;
+     border-width:30px;
+     border-color:red;
+     border-left-color:black;
+     border-right-color:black;
+     object-fit:cover;
+     border-radius:30px;
+     
+     }
+     .sen
+     {
+        height: 45px;
+        width:120px ;
+        font-size:20px;
+        color:white;
+        background-color: #e9bcb7;
+        background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+        border: 1px solid cornsilk;
+     }
+     .sen:hover{
+          height: 45px;
+          width:120px ;
+          font-size:20px;
+           cursor: pointer;
+           background-color: antiquewhite;
+          
+           box-shadow: 0 0 5px wheat, 0 0 10px white, 0 0 15px white;
+           font-weight: bold;
+           outline: none;
+          transition: .7s ease;
+          color: black;
+   }
+    input{
+        height:35px;
+        width:60%;
+        border:2px;
+        font-weight :bolder;
+        border-style: solid;
+        border-color:red;
+        border-radius:8px;
+    }
+    input:hover{
+       height:35px;
+       width:60%;
+       border:2px;
+       border-style: solid;
+       border-color:white;
+       border-radius:8px;
+       background: transparent;
+       background-color: #f39f86;
+       background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+       color:black;
+       font-weight: 600;
+      padding-left: 12px;
+    }
+    .tex{
+       border:2px;
+       border-style: solid;
+       border-color:red;
+       border-radius:8px
+    }
     
-}
-  
- 
-  
+   
+   
+   /* End of style for form*/
+   .container{
+       max-width:400px;
+       width:100%;
+       background:linear-gradient(135deg, #71b7e6,#9b59b6);
+       padding:25px 30px;
+       border-radius:30px;
+       max-height:100%;
+   
+       font-size:27px;
+       
+   }
+   .container:hover{
+       max-width:400px;
+       width:100%;
+       background-color: #48dbfb;
+       background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+       padding:25px 30px;
+       border-radius:30px;
+       max-height:100%;
+   
+       font-size:27px;
+       
+   }
+        
+   
+   @media screen and (min-width: 500px){
+       .head{
+           height:100%;
+       }
+       .container{
+          max-width: 1200px;    
+          width:75%;
+       }
+       .tex{
+           border-radius:15px;
+       }
+       .container:hover{
+           max-width: 1200px;    
+           width:75% ;
+       }
+   }
+    
+     
+     @media screen and (max-width: 499px) {
+       .head{
+           height:70%;
+       }
+       .container{
+                  
+          width:90%;
+          padding:0px;
+          font-size:100%;
+       }
+       input{
+           width:75%;
+           
+       }
+       
+       .container:hover{
+             max-width: 400px;     
+           width:90%;
+           padding:0px;
+           font-size:100%;
+        }
+       
+       
+   }
+     
+    
+     
