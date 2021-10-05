@@ -6,8 +6,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  margin-left:3px;
-
 }
 
 /* Header/logo Title */
@@ -16,10 +14,8 @@ body {
   height:50%;
   text-align: center;
   background-color :#20bf55;
-background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
-
+  background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   color: white; 
-  
 }
 .header:hover{
   cursor:pointer;
@@ -69,12 +65,11 @@ background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   color: red;
   box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
   border-radius:15px;
-  outline: inset;
   outline-width:3px;
+  outline-style: dotted;
   outline-color:red;
   background-color: #ffcfdf;
   background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
-
   transition: .8s ease;
 }
 .navbar a.active:hover {
@@ -105,52 +100,51 @@ background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
 /* Sidebar/left column */
 .side {
   -ms-flex: 30%; 
-  flex: 30%;
-  background-color: #f1f1f1;
-
+  flex: 30%; 
   background-color: #d8dede;
-background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+  background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
   padding: 20px;
   background-size:cover;
 }
 
 /* Main column */
 .main {   
+ -ms-flex: 70%; 
   -ms-flex: 70%; 
+ -ms-flex: 70%; 
+ flex: 70%; 
   flex: 70%;
-  
-  background-color: #f876de;
-background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
-
-  padding: 20px;
+ flex: 70%; 
+ background-color: #f876de;
+ background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);
+ padding: 20px;
 }
 .main:hover{
-  cursor:pointer;
- border-radius:10 px;
-outline: inset;
-outline-color:whitesmoke;
-outline-width: 8px;
-background-color: #ffcfdf;
-background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
-transition: 0.2s ease;
-  
-}
-
-.side:hover{
   cursor:pointer;
  border-radius:10 px;
  outline: inset;
  outline-color:whitesmoke;
  outline-width: 8px;
- background-color: #f2dd6e;
-background-image: linear-gradient(319deg, #f2dd6e 0%, #cff27e 37%, #ef959d 100%);
+ background-color: #ffcfdf;
+ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+ transition: 0.2s ease; 
+transition: 0.2s ease;
+ transition: 0.2s ease; 
+}
 
+.side:hover{
+ cursor:pointer;
+ border-radius:10 px;
+ outline: inset;
+ outline-color:whitesmoke;
+ outline-width: 8px;
+ background-color: #f2dd6e;
+ background-image: linear-gradient(319deg, #f2dd6e 0%, #cff27e 37%, #ef959d 100%);
  transition: 0.6s ease;
 }
 .fakeim {
     width: 35%;
     height:100%;
-    
   }
   .up{
   border-style: double solid;
@@ -176,7 +170,7 @@ background-image: linear-gradient(319deg, #f2dd6e 0%, #cff27e 37%, #ef959d 100%)
 .rcorner{
   object-fit:cover;
   border-radius:100%;
-   border-style: double solid;
+  border-style: double solid;
   border-width:30px;
   border-color:red;
   border-left-color:black;
@@ -209,48 +203,43 @@ background-image: linear-gradient(319deg, #f2dd6e 0%, #cff27e 37%, #ef959d 100%)
 }
 .rcorners3:hover{
   cursor:pointer;
- border-radius:15px;
-outline: inset;
-outline-color:whitesmoke;
-outline-width: 12px;
-background-color: #1fd1f9;
-background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-
-
-background-size: cover;
+  border-radius:15px;
+  outline: inset;
+  outline-color:whitesmoke;
+  outline-width: 12px;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  background-size: cover;
   transition: 0.4s ease;
 }
 .rcorners2:hover{
   cursor:pointer;
- border-radius:15px;
-outline: inset;
-outline-color:black;
-outline-width: 8px;
-background-color: #f9484a;
-background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
-
+  border-radius:15px;
+  outline: inset;
+  outline-color:black;
+  outline-width: 8px;
+  background-color: #f9484a;
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
   transition: 0.6s ease;
 }
 .rcorner:hover{
   cursor:pointer;
- border-radius:45%;
-outline: inset;
-outline-color:whitesmoke;
-outline-width: 8px;
-background-color: #f9484a;
-background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
-
+  border-radius:45%;
+  outline: inset;
+  outline-color:whitesmoke;
+  outline-width: 8px;
+  background-color: #f9484a;
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
   transition: 0.6s ease;
 }
 .rcorners1:hover{
   cursor:pointer;
- border-radius:45%;
-outline: inset;
-outline-color:whitesmoke;
-outline-width: 8px;
-background-color: #f9484a;
-background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
-
+  border-radius:45%;
+  outline: inset;
+  outline-color:whitesmoke;
+  outline-width: 8px;
+  background-color: #f9484a;
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
   transition: 0.6s ease;
 }
 
@@ -258,14 +247,11 @@ background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
 .footer {
   padding: 20px;
   text-align: center;
-  
   background-image: url("image/bac1.jpg");
   background-size:cover;
 }
 .footer:hover {
-
   text-align: center;
-  
   background-image: url("image/img2.jpg");
   background-size:cover;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -282,14 +268,14 @@ background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
 
 }
 .decorate:hover{
-background-color: antiquewhite;
+  background-color: antiquewhite;
   color: red;
   box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
- border-radius:15px;
-outline: inset;
-outline-color:red;
-background-color: #ffcfdf;
-background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+  border-radius:15px;
+  outline: inset;
+  outline-color:red;
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 
   transition: .8s ease;
 }
@@ -337,17 +323,16 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   font-weight: 1000;
 }
 .decorate4:hover{
-  background-color: antiquewhite;
-    color:black;
-    box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
+   background-color: antiquewhite;
+   color:black;
+   box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
    border-radius:15px;
-  outline: inset;
-  outline-width: 5px;
-  outline-color:red;
-  background-color: #ffcfdf;
-  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
-  
-    transition: .8s ease;
+   outline: inset;
+   outline-width: 5px;
+   outline-color:red;
+   background-color: #ffcfdf;
+   background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+   transition: .8s ease;
   }
 
 
@@ -358,16 +343,33 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   }
   .navbar{
     background-color: #90d5ec;
-background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    
+}
+  .navbar a:hover{
+    background-color: antiquewhite;
+    color: red;
+    box-shadow: 0px 0 5px wheat, 0 0 10px white, 0 0 15px white;
+    border-radius:15px;
+    outline-width:3px;
+    outline-style: dotted;
+    outline-color:black;
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    transition: .8s ease;
 }
 
+
 }
+
+
 @media screen and (max-width: 473px) {
   .footer.rcorner:hover{
     background-image: url("image/new.png");
     background-size:cover;
     background-repeat: no-repeat;
     }
+   
 }
 
 @media screen and (min-width:474px) and (max-width: 600px) {
