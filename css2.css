@@ -42,8 +42,8 @@ body{
            box-shadow: 0 0 5px wheat, 0 0 10px white, 0 0 15px white;
            font-weight: bold;
            outline: none;
-          transition: .7s ease;
-          color: black;
+           transition: .7s ease;
+           color: black;
    }
     input{
         height:35px;
@@ -61,12 +61,12 @@ body{
        border-style: solid;
        border-color:white;
        border-radius:8px;
-       background: transparent;
        background-color: #f39f86;
        background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
        color:black;
-       font-weight: 600;
-      padding-left: 12px;
+       font-weight: solid;
+       padding-left: 12px;
+       transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     .tex{
        border:2px;
