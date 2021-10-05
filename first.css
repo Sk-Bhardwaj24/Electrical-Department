@@ -254,7 +254,7 @@ transition: 0.2s ease;
   text-align: center;
   background-image: url("image/img2.jpg");
   background-size:cover;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition:0s linear;
 }
 .decorate{
   text-decoration:none;
